@@ -7,7 +7,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 st.set_page_config(page_title="Sentimental Analysis", page_icon="🏨")
 
 # Load the trained model 
-model = joblib.load(r"C:\Users\madas\Downloads\logistic_regression1.pkl")
+model = joblib.load("C:\\Users\\madas\\Downloads\\Prudent_Hackathon\\logistic_regression1.pkl")
 
 # Function to predict sentiment
 def predict_sentiment(review):
