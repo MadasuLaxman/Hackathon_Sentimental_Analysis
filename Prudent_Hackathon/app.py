@@ -1,12 +1,12 @@
 import streamlit as st
 import pandas as pd
-import joblib
+import pickle
 
 # Set page configuration to full width
 st.set_page_config(page_title="Sentimental Analysis", page_icon="🏨")
 
 # Load the trained model 
-model = joblib.load(r"C:\Users\madas\Downloads\Prudent_Hackathon\logistic_regression1.pkl")
+model = pickle.load(open(r"C:\Users\madas\Downloads\Prudent_Hackathon\logistic_regression1.pkl", "rb"))
 
 # Function to predict sentiment
 def predict_sentiment(review):
