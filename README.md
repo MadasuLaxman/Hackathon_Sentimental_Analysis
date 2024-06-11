@@ -51,12 +51,12 @@ To run this project, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/sentiment-analysis-hotel-reviews.git
-  Navigate to the project directory: 
+   git clone [https://github.com/yourusername/sentiment-analysis-hotel-reviews](https://github.com/MadasuLaxman/Hackathon_Sentimental_Analysis/).git
+ 2. Navigate to the project directory: 
   ```
 cd sentiment-analysis-hotel-reviews
 ```
- Install the required packages:
+3. Install the required packages:
 ```
 pip install -r requirements.txt
 ```
@@ -64,9 +64,9 @@ pip install -r requirements.txt
 
 Running the Streamlit App
 To start the Streamlit app, use the following command: 
-```streamlit run app/app.py
 ```
-
+streamlit run app/app.py
+```
 # Predicting Sentiment
 1. Open the web application.
 2. Enter a hotel review in the input box.
