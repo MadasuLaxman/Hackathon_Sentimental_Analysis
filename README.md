@@ -50,9 +50,14 @@ This project focuses on sentiment analysis of hotel reviews. By leveraging machi
 To run this project, follow these steps:
 
 1. Clone the repository:
-   ```bash cd sentiment-analysis-hotel-reviews
-  Navigate to the project directory: cd sentiment-analysis-hotel-reviews
- Install the required packages: pip install -r requirements.txt
+   ```
+   bash git clone https://github.com/yourusername/sentiment-analysis-hotel-reviews.git
+  Navigate to the project directory: 
+  ```bash
+cd sentiment-analysis-hotel-reviews
+ Install the required packages:
+```bash
+pip install -r requirements.txt
 # Usage
 
 Running the Streamlit App
