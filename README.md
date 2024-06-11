@@ -50,7 +50,7 @@ This project focuses on sentiment analysis of hotel reviews. By leveraging machi
 To run this project, follow these steps:
 
 1. Clone the repository:
-   ```bash
+   ```bash cd sentiment-analysis-hotel-reviews
   Navigate to the project directory: cd sentiment-analysis-hotel-reviews
  Install the required packages: pip install -r requirements.txt
 # Usage
@@ -65,8 +65,9 @@ To start the Streamlit app, use the following command: streamlit run app/app.py
 # Results and Insights
 This project provided valuable insights into customer sentiments affecting satisfaction. By analyzing the reviews, we could identify common themes and issues that influence customer experiences positively or negatively.
 
-Contact
+# Contact
 For any inquiries or feedback, please contact me at:
 
 Email: madasulaxman028@gmail.com
+
 LinkedIn: https://www.linkedin.com/in/laxmanmadasu/
